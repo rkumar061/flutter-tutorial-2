@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/views/calculator_view.dart';
 import 'package:flutter_application_1/views/home_view.dart';
 
 class MyApp extends StatelessWidget {
@@ -10,6 +11,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         title: 'Flutter Tutorial',
+        theme: ThemeData(
+          primarySwatch: Colors.deepOrange,
+        ),
         home: home_view());
   }
 }
